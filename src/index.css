@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    h1{
+        @apply text-2xl font-bold text-light-mode-text dark:text-white
+    }
+    h2{
+        @apply text-lg font-bold mb-3 text-light-mode-text dark:text-white
+    }
+
+    p{
+        @apply font-semibold text-light-mode-text dark:text-white
+    }
+
+    span{
+        @apply text-light-mode-text dark:text-white font-light
+    }
+
+    body{
+        @apply dark:bg-dark-mode-bg bg-light-mode-bg
+    }
+  
+}
